@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            font-size: large;
+        }
+        
+        h3 {
+            font-size: medium;
+        }
+        
+        h3.aa {
+            font-style: italic;
+        }
+        
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#q">SAD</a>
+    <a href="mailto:ganeshyadharth@gmail.com">Yadharth GC</a>
+    <h1>16-06-20 Task</h1>
+    <h2><em>typeof</em></h2>
+    <h2>
+        It returns a string indicating the type of the unevaluated operator.
+    </h2>
+    <h3 class="aa">1.Number</h3>
+    <h3>typeof will return number for integers and decimals.</h3>
+    <h3 class="aa">2.String</h3>
+    <h3>
+        typeof will return string for any characters enclosed within '' or "".
+    </h3>
+    <h3 class="aa">3.Boolean</h3>
+    <h3>typeof will return boolean for true,False and boolean operators.</h3>
+    <h3 class="aa">4.Undefined</h3>
+    <h3>typeof will return undefined for undefined elements.</h3>
+    <h3 class="aa">5.Objects</h3>
+    <h3>
+        typeof will return objects for charaters enclosed within {} and null.
+    </h3>
+    <h3 class="aa">6.Array</h3>
+    <h3>typeof will return Array for charaters enclosed within [].</h3>
+    <h2><em>Section,Article,Div</em></h2>
+    <img id="q" src="article,section.png" alt="aryicle,section">
+    <p>
+        <article>The section tag defines sections in a document like chapters, headers, footers whereas div tag defines a division in an HTML document. Here we will discuss the difference between section and div in HTML. In HTML, section means that the content
+            inside is grouped and should appear as a entry in an outline of a page whereas div does not convey any meaning, aside from any found in its class, lang and title attributes. A website’s home page can be split into sections for an introduction,
+            news items and contact information. For div, this should be used only when no other semantic element like article or nav is appropriate. section gathers a specific and strong semantic purpose, where, div has only a generic, non-specific meaning
+            and no semantic purpose.</article>
+    </p>
+    <a href="#">jump top</a>
+</body>
+
+</html>
+
+
+link:::file:///D:/task%201.html#q
